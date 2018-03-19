@@ -1,0 +1,41 @@
+syntax = 'proto3';
+
+message M2 {
+oneof oneOf {
+C3 m1 = 1;
+C3 m2_p2 = 2;
+C3P m2_p3 = 3;
+C4P m3_p3 = 4;
+C3P m4_p3 = 5;
+K k = 6;
+}
+}
+
+message C3 {
+bytes c1 = 1;
+bytes c2 = 2;
+bytes c3 = 3;
+}
+
+message C3P {
+bytes c1 = 1;
+bytes c2 = 2;
+Pair c3 = 3;
+}
+
+message C4P {
+bytes c1 = 1;
+bytes c2 = 2;
+bytes c3 = 3;
+Pair c4 = 4;
+}
+
+message K {
+Pair k1_k2 = 1;
+}
+
+
+message Pair {
+bytes first = 1;
+bytes second = 2;
+}

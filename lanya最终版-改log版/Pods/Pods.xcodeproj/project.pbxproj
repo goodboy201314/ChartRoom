@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017EEE0DA0AF6190FA2C243433E0442D /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = B71A42D70E95EBF506FBDB1C1179F77B /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		069859C83FD3A2515979B8CEEA0F8BCA /* IAGBitwiseComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 136D89B4628C75F090553E85F0E0970A /* IAGBitwiseComponents.m */; };
+		0E04B47A619A27AB34F3D4DE12407A6A /* IAGError.m in Sources */ = {isa = PBXBuildFile; fileRef = BC083DC9037C8B70AA2CF4194D9E3E97 /* IAGError.m */; };
+		0FF710AE7888220CB0EEE05A1AB18DC1 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9F683646C7F4377DA84088880A8B13 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BDB5DB1A8A3E22BBDB8D62E8EFF8645 /* IAGAesGcm.m in Sources */ = {isa = PBXBuildFile; fileRef = 455F94AFB8369E3221B097EA81323D09 /* IAGAesGcm.m */; };
+		280912E175ECBF989E664353A1783F0C /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FD741E0F4A4DA9D85D08428EA2C102 /* RNCryptor-dummy.m */; };
+		2A68B92DDC3BFDC44D559270E91C94B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */; };
+		31CEBDA48E6C9CB6AC77828479FE68A8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC08EFA0ACD1FC99BE80ADE0D0DE128 /* SVRadialGradientLayer.m */; };
+		339C8EB2D3C2592A104C961B59CB8BDE /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 018D36A3E6F4644740C61F09885B30AC /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342926D6E435ABF8E2CB1C39740C2CDC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6767423C3E4A9A0A9952082905383 /* SVProgressHUD.m */; };
+		3ABB203D76CA339DFD057B46EEE3C92E /* IAGGcmMathComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A601E5AD841164AE2ED34C765871EB /* IAGGcmMathComponents.m */; };
+		3FDA789175E9F063242774CFC1052A9E /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B150AC6A2A69FA133216437DA2FF74 /* SVProgressHUD-dummy.m */; };
+		4B9106A4A1279E64021BC863F506A152 /* IAGAesComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 151A02E2CEC45BA3C6E33D312DD46286 /* IAGAesComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5B7B8FA35526B14BE7B8CD128B3710 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C755264CE61715DCAE82214C25764E9B /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4FCE54BE941DFD82C511DED9B4B5526C /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C07F240128D33A508D025869E196BE51 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E79F9BB9120C1222477C38E06360DEF /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F295855E6A797A9D3A5B3052730BE /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60C1A0EF00F4902F1799CF06A1A52824 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8755F7FF39C66E694FE295D55E1A91 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		65F71EAE8B52589160ACC8CC419AA852 /* Pods-lanya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E7E07A00348D5AEA6871678C800E56 /* Pods-lanya-dummy.m */; };
+		6ACC38522EC36CBA49CF1F3D921B7209 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6081982DF6B67FFF4836DF2E8165D8EE /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737942C8CDBBA25DC6B00EFB3886DD9C /* IAGCipheredData.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1BCE4B7DE4021A72D5C05FC2561A7B /* IAGCipheredData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CF3D719BFDC68C6564E33CEE208D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */; };
+		84AA530707D8518C1990557E7B8AD519 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E374951DD47BFBAF6E27845B30823CDA /* SVIndefiniteAnimatedView.m */; };
+		8568E4F415CC3EEBE0622359723B1454 /* IAGCipheredData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD339CA93BC61EE167FDC74EE6F86B2 /* IAGCipheredData.m */; };
+		8F4C5482916A34214B3A8CF8070C4C68 /* IAGGcmEndianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 351E9853C9891B79C7484C087CACA7B0 /* IAGGcmEndianness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943C110531D4A4EB02A2195E2414C09D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B0D01AF44B72F8A8743313974495E4 /* Security.framework */; };
+		95BC478FFDC0ED5B0A6D1DF0C5D91243 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C590D4A90C9AE8FF8D0DFBF73A4533BC /* QuartzCore.framework */; };
+		9F71E79584DB0C36E5FBC7BA9D73434E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */; };
+		A0F3156ECC652A0B46945581104CBBC4 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C93997A89464630665512F089C168 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AB54B6E856D1D576D1E75F3A542A04A8 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B55FF5100C75781C4F61BAA711B1460 /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE8AF8249C6544578A7B7DF0B9C4DB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */; };
+		AEA94F2CE3EBC087422619A07EFB54E0 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB649A6BC2D725873D7DF3943734407C /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B91CD7BBA567CDF2B3D3DB66C4195B6B /* AesGcm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E565E8A76115083D3FB41182CC6B6 /* AesGcm-dummy.m */; };
+		BA08D4827282D716BACAB90070CD2476 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACC688DD4DB0ED8552BDCD11CF427C1 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C0C8FB777376D60E3F3FE59CE1FDA13F /* IAGTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A88E48E380E2D4527249117157AAE3 /* IAGTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7759E0F41E42649B559794CC083EF5D /* IAGBitwiseComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = D64EC16986527BD8D4214E869A8BB8BE /* IAGBitwiseComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB67A592B3F6B17427B1629FE9CA1967 /* IAGError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDA4E3AAADEB1F7FA904CD7D4AAE704 /* IAGError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08F4709A91690C8A4E0912B65D53B15 /* IAGGcmEndianness.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F268D5611B6B97716A1301D44C74D6 /* IAGGcmEndianness.m */; };
+		ECD9EC735544B62363E73159D08DE6EC /* IAGGcmMathComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C3F1EB27D02061537BECA30EE64D2F /* IAGGcmMathComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB05AF03F93F4559B4AB7706913DA0C /* IAGAesGcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BB1AED662430D8FAB4C8BE0A76E806 /* IAGAesGcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44A2D6D5AE584EED22192B979D4B764 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84870BC8D84009EEF2FAD3EC8CF7B0F1 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA35BC8A57DB0A2C0BF284CAFB30D5E /* IAGAesComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 90256745448425853704A7C2941B2B6B /* IAGAesComponents.m */; };
+		FFE02FD611E7FBB74175810F43B8ED92 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B396B522D079EC6DB61D68A9ED0AE0E7 /* SVProgressAnimatedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143F2E0470D483A4C6A8CCD5998F756C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887431A651BFEC3A6647B6334B8ACA7F;
+			remoteInfo = AesGcm;
+		};
+		727DC99C2802020F592408F5F09A8C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B47F65736D18E4B44C0108DFE68A724;
+			remoteInfo = SVProgressHUD;
+		};
+		A2CD7AE2D3252644691CFE6F52E7FE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86448175336B5DCD761E867B54F318BC;
+			remoteInfo = RNCryptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D8D4D75808065F54684BF75C166FD5 /* libPods-lanya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-lanya.a"; path = "libPods-lanya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		013B6BB1505A265576A289366AD08805 /* AesGcm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AesGcm-prefix.pch"; sourceTree = "<group>"; };
+		018D36A3E6F4644740C61F09885B30AC /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		06E7E07A00348D5AEA6871678C800E56 /* Pods-lanya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lanya-dummy.m"; sourceTree = "<group>"; };
+		079F0DF7CCDFD3BE28CAA27ECD22C5DA /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		0A23ED9F7EE2627EF2BEEF0C9F222C52 /* Pods-lanya-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lanya-acknowledgements.markdown"; sourceTree = "<group>"; };
+		136D89B4628C75F090553E85F0E0970A /* IAGBitwiseComponents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGBitwiseComponents.m; path = AesGcm/Classes/Components/IAGBitwiseComponents.m; sourceTree = "<group>"; };
+		14BB1AED662430D8FAB4C8BE0A76E806 /* IAGAesGcm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGAesGcm.h; path = AesGcm/Classes/IAGAesGcm.h; sourceTree = "<group>"; };
+		151A02E2CEC45BA3C6E33D312DD46286 /* IAGAesComponents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGAesComponents.h; path = AesGcm/Classes/Components/IAGAesComponents.h; sourceTree = "<group>"; };
+		1BDA4E3AAADEB1F7FA904CD7D4AAE704 /* IAGError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGError.h; path = AesGcm/Classes/IAGError.h; sourceTree = "<group>"; };
+		1E70A4A99642DBB3ABD1806E58D58175 /* Pods-lanya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lanya.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9F683646C7F4377DA84088880A8B13 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		351E9853C9891B79C7484C087CACA7B0 /* IAGGcmEndianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGGcmEndianness.h; path = AesGcm/Classes/Components/IAGGcmEndianness.h; sourceTree = "<group>"; };
+		38CC4FBC64E57CD3CF9BF3BB9ADC03B1 /* Pods-lanya-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lanya-acknowledgements.plist"; sourceTree = "<group>"; };
+		39D6767423C3E4A9A0A9952082905383 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42F268D5611B6B97716A1301D44C74D6 /* IAGGcmEndianness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGGcmEndianness.m; path = AesGcm/Classes/Components/IAGGcmEndianness.m; sourceTree = "<group>"; };
+		455F94AFB8369E3221B097EA81323D09 /* IAGAesGcm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGAesGcm.m; path = AesGcm/Classes/IAGAesGcm.m; sourceTree = "<group>"; };
+		4DC08EFA0ACD1FC99BE80ADE0D0DE128 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		5B0F6C392C16AD7F74956F94E4098032 /* libAesGcm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAesGcm.a; path = libAesGcm.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6081982DF6B67FFF4836DF2E8165D8EE /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		60A88E48E380E2D4527249117157AAE3 /* IAGTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGTypes.h; path = AesGcm/Classes/Components/IAGTypes.h; sourceTree = "<group>"; };
+		676850F1F776C35AC6C6C3D7DCF594F4 /* AesGcm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AesGcm.xcconfig; sourceTree = "<group>"; };
+		6B55FF5100C75781C4F61BAA711B1460 /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		7CB7B4624FD6FC7B376F8BB2157C639B /* libRNCryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRNCryptor.a; path = libRNCryptor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8224DBC51F80FCA4A7709C85B75A58A9 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84870BC8D84009EEF2FAD3EC8CF7B0F1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		864C93997A89464630665512F089C168 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		87269188DB9D41E150DC75248DC8958D /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		90256745448425853704A7C2941B2B6B /* IAGAesComponents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGAesComponents.m; path = AesGcm/Classes/Components/IAGAesComponents.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A9E565E8A76115083D3FB41182CC6B6 /* AesGcm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AesGcm-dummy.m"; sourceTree = "<group>"; };
+		9ACC688DD4DB0ED8552BDCD11CF427C1 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		A0CC911A0AF80AF2D8F67441FB59EE20 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A0E6A9B416FB858FE05DEF0F6239B7CA /* Pods-lanya-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lanya-resources.sh"; sourceTree = "<group>"; };
+		AC8755F7FF39C66E694FE295D55E1A91 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		ACD339CA93BC61EE167FDC74EE6F86B2 /* IAGCipheredData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGCipheredData.m; path = AesGcm/Classes/IAGCipheredData.m; sourceTree = "<group>"; };
+		AF1BCE4B7DE4021A72D5C05FC2561A7B /* IAGCipheredData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGCipheredData.h; path = AesGcm/Classes/IAGCipheredData.h; sourceTree = "<group>"; };
+		B396B522D079EC6DB61D68A9ED0AE0E7 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		B505CF2BEA2C6BDED43223EC44587EDF /* Pods-lanya-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lanya-frameworks.sh"; sourceTree = "<group>"; };
+		B6B150AC6A2A69FA133216437DA2FF74 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B71A42D70E95EBF506FBDB1C1179F77B /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		B76DF7D4E2438B93625EFF04C350B651 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BB649A6BC2D725873D7DF3943734407C /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		BBFF349D8BA2073178145E0A2EDF0F78 /* Pods-lanya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lanya.release.xcconfig"; sourceTree = "<group>"; };
+		BC083DC9037C8B70AA2CF4194D9E3E97 /* IAGError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGError.m; path = AesGcm/Classes/IAGError.m; sourceTree = "<group>"; };
+		C07F240128D33A508D025869E196BE51 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		C590D4A90C9AE8FF8D0DFBF73A4533BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C755264CE61715DCAE82214C25764E9B /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		D0E6ED910CDE4A290F28DAD2B809289F /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		D64EC16986527BD8D4214E869A8BB8BE /* IAGBitwiseComponents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGBitwiseComponents.h; path = AesGcm/Classes/Components/IAGBitwiseComponents.h; sourceTree = "<group>"; };
+		E19F295855E6A797A9D3A5B3052730BE /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		E374951DD47BFBAF6E27845B30823CDA /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E6A601E5AD841164AE2ED34C765871EB /* IAGGcmMathComponents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAGGcmMathComponents.m; path = AesGcm/Classes/Components/IAGGcmMathComponents.m; sourceTree = "<group>"; };
+		E8B0D01AF44B72F8A8743313974495E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E8C3F1EB27D02061537BECA30EE64D2F /* IAGGcmMathComponents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAGGcmMathComponents.h; path = AesGcm/Classes/Components/IAGGcmMathComponents.h; sourceTree = "<group>"; };
+		E9FD741E0F4A4DA9D85D08428EA2C102 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46DE403DB7107ED1EFBB74D97C8505AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8AF8249C6544578A7B7DF0B9C4DB08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F165A8D52639376BEC190EFA8EBB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A68B92DDC3BFDC44D559270E91C94B6 /* Foundation.framework in Frameworks */,
+				943C110531D4A4EB02A2195E2414C09D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0AED5C40E7AEB6B5997CDD93141BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CF3D719BFDC68C6564E33CEE208D7A /* Foundation.framework in Frameworks */,
+				95BC478FFDC0ED5B0A6D1DF0C5D91243 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5223AEB2B519021ABBE42C3D6BBC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F71E79584DB0C36E5FBC7BA9D73434E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003F7CF55F99A05A9F8F83CBAD1942ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079F0DF7CCDFD3BE28CAA27ECD22C5DA /* RNCryptor.xcconfig */,
+				E9FD741E0F4A4DA9D85D08428EA2C102 /* RNCryptor-dummy.m */,
+				D0E6ED910CDE4A290F28DAD2B809289F /* RNCryptor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
+			sourceTree = "<group>";
+		};
+		05A9AE292C590412F8A467C551C8316D /* Pods-lanya */ = {
+			isa = PBXGroup;
+			children = (
+				0A23ED9F7EE2627EF2BEEF0C9F222C52 /* Pods-lanya-acknowledgements.markdown */,
+				38CC4FBC64E57CD3CF9BF3BB9ADC03B1 /* Pods-lanya-acknowledgements.plist */,
+				06E7E07A00348D5AEA6871678C800E56 /* Pods-lanya-dummy.m */,
+				B505CF2BEA2C6BDED43223EC44587EDF /* Pods-lanya-frameworks.sh */,
+				A0E6A9B416FB858FE05DEF0F6239B7CA /* Pods-lanya-resources.sh */,
+				1E70A4A99642DBB3ABD1806E58D58175 /* Pods-lanya.debug.xcconfig */,
+				BBFF349D8BA2073178145E0A2EDF0F78 /* Pods-lanya.release.xcconfig */,
+			);
+			name = "Pods-lanya";
+			path = "Target Support Files/Pods-lanya";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B57927E7FA9F2ED6F5C9F392559970F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B57927E7FA9F2ED6F5C9F392559970F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A571C45CD96D3AAE585AF107CE1142D /* Foundation.framework */,
+				C590D4A90C9AE8FF8D0DFBF73A4533BC /* QuartzCore.framework */,
+				E8B0D01AF44B72F8A8743313974495E4 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2204C029A150A82A83E36FD6E06BE8A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				676850F1F776C35AC6C6C3D7DCF594F4 /* AesGcm.xcconfig */,
+				9A9E565E8A76115083D3FB41182CC6B6 /* AesGcm-dummy.m */,
+				013B6BB1505A265576A289366AD08805 /* AesGcm-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AesGcm";
+			sourceTree = "<group>";
+		};
+		3FBBDCAC4EA69D3AC92030008B4A0EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0F6C392C16AD7F74956F94E4098032 /* libAesGcm.a */,
+				00D8D4D75808065F54684BF75C166FD5 /* libPods-lanya.a */,
+				7CB7B4624FD6FC7B376F8BB2157C639B /* libRNCryptor.a */,
+				8224DBC51F80FCA4A7709C85B75A58A9 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C5FAE0BDAEA6A307FBD04C0A34DF2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B76DF7D4E2438B93625EFF04C350B651 /* SVProgressHUD.xcconfig */,
+				B6B150AC6A2A69FA133216437DA2FF74 /* SVProgressHUD-dummy.m */,
+				87269188DB9D41E150DC75248DC8958D /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		4F96EB8E78D661AB50F7AF96C3E4DCFE /* AesGcm */ = {
+			isa = PBXGroup;
+			children = (
+				151A02E2CEC45BA3C6E33D312DD46286 /* IAGAesComponents.h */,
+				90256745448425853704A7C2941B2B6B /* IAGAesComponents.m */,
+				14BB1AED662430D8FAB4C8BE0A76E806 /* IAGAesGcm.h */,
+				455F94AFB8369E3221B097EA81323D09 /* IAGAesGcm.m */,
+				D64EC16986527BD8D4214E869A8BB8BE /* IAGBitwiseComponents.h */,
+				136D89B4628C75F090553E85F0E0970A /* IAGBitwiseComponents.m */,
+				AF1BCE4B7DE4021A72D5C05FC2561A7B /* IAGCipheredData.h */,
+				ACD339CA93BC61EE167FDC74EE6F86B2 /* IAGCipheredData.m */,
+				1BDA4E3AAADEB1F7FA904CD7D4AAE704 /* IAGError.h */,
+				BC083DC9037C8B70AA2CF4194D9E3E97 /* IAGError.m */,
+				351E9853C9891B79C7484C087CACA7B0 /* IAGGcmEndianness.h */,
+				42F268D5611B6B97716A1301D44C74D6 /* IAGGcmEndianness.m */,
+				E8C3F1EB27D02061537BECA30EE64D2F /* IAGGcmMathComponents.h */,
+				E6A601E5AD841164AE2ED34C765871EB /* IAGGcmMathComponents.m */,
+				60A88E48E380E2D4527249117157AAE3 /* IAGTypes.h */,
+				2204C029A150A82A83E36FD6E06BE8A4 /* Support Files */,
+			);
+			name = AesGcm;
+			path = AesGcm;
+			sourceTree = "<group>";
+		};
+		620B5BFCC6224E63C883BAB5DC311F5F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				84870BC8D84009EEF2FAD3EC8CF7B0F1 /* SVIndefiniteAnimatedView.h */,
+				E374951DD47BFBAF6E27845B30823CDA /* SVIndefiniteAnimatedView.m */,
+				018D36A3E6F4644740C61F09885B30AC /* SVProgressAnimatedView.h */,
+				B396B522D079EC6DB61D68A9ED0AE0E7 /* SVProgressAnimatedView.m */,
+				2E9F683646C7F4377DA84088880A8B13 /* SVProgressHUD.h */,
+				39D6767423C3E4A9A0A9952082905383 /* SVProgressHUD.m */,
+				6081982DF6B67FFF4836DF2E8165D8EE /* SVRadialGradientLayer.h */,
+				4DC08EFA0ACD1FC99BE80ADE0D0DE128 /* SVRadialGradientLayer.m */,
+				F16387B69178041D63C1FC240712946D /* Resources */,
+				40C5FAE0BDAEA6A307FBD04C0A34DF2E /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				C0BCA854C536204F4F1ACC3DAA142555 /* Pods */,
+				3FBBDCAC4EA69D3AC92030008B4A0EE9 /* Products */,
+				9105F17509A4804DA001EF061D21BCEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9105F17509A4804DA001EF061D21BCEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05A9AE292C590412F8A467C551C8316D /* Pods-lanya */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1AF40038F654B687FBCC8FC9CE43C4F /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				B71A42D70E95EBF506FBDB1C1179F77B /* RNCryptor.h */,
+				BB649A6BC2D725873D7DF3943734407C /* RNCryptor.m */,
+				9ACC688DD4DB0ED8552BDCD11CF427C1 /* RNCryptor+Private.h */,
+				AC8755F7FF39C66E694FE295D55E1A91 /* RNCryptorEngine.h */,
+				C755264CE61715DCAE82214C25764E9B /* RNCryptorEngine.m */,
+				6B55FF5100C75781C4F61BAA711B1460 /* RNDecryptor.h */,
+				864C93997A89464630665512F089C168 /* RNDecryptor.m */,
+				C07F240128D33A508D025869E196BE51 /* RNEncryptor.h */,
+				E19F295855E6A797A9D3A5B3052730BE /* RNEncryptor.m */,
+				003F7CF55F99A05A9F8F83CBAD1942ED /* Support Files */,
+			);
+			name = RNCryptor;
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		C0BCA854C536204F4F1ACC3DAA142555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F96EB8E78D661AB50F7AF96C3E4DCFE /* AesGcm */,
+				A1AF40038F654B687FBCC8FC9CE43C4F /* RNCryptor */,
+				620B5BFCC6224E63C883BAB5DC311F5F /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F16387B69178041D63C1FC240712946D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC911A0AF80AF2D8F67441FB59EE20 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0AF5E381F56003A15BD4E77F4635D50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9106A4A1279E64021BC863F506A152 /* IAGAesComponents.h in Headers */,
+				EEB05AF03F93F4559B4AB7706913DA0C /* IAGAesGcm.h in Headers */,
+				C7759E0F41E42649B559794CC083EF5D /* IAGBitwiseComponents.h in Headers */,
+				737942C8CDBBA25DC6B00EFB3886DD9C /* IAGCipheredData.h in Headers */,
+				DB67A592B3F6B17427B1629FE9CA1967 /* IAGError.h in Headers */,
+				8F4C5482916A34214B3A8CF8070C4C68 /* IAGGcmEndianness.h in Headers */,
+				ECD9EC735544B62363E73159D08DE6EC /* IAGGcmMathComponents.h in Headers */,
+				C0C8FB777376D60E3F3FE59CE1FDA13F /* IAGTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE144942B8973161B7AEA30068E162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A2D6D5AE584EED22192B979D4B764 /* SVIndefiniteAnimatedView.h in Headers */,
+				339C8EB2D3C2592A104C961B59CB8BDE /* SVProgressAnimatedView.h in Headers */,
+				0FF710AE7888220CB0EEE05A1AB18DC1 /* SVProgressHUD.h in Headers */,
+				6ACC38522EC36CBA49CF1F3D921B7209 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2C9C105869593C4718AFD488C8DB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08D4827282D716BACAB90070CD2476 /* RNCryptor+Private.h in Headers */,
+				017EEE0DA0AF6190FA2C243433E0442D /* RNCryptor.h in Headers */,
+				60C1A0EF00F4902F1799CF06A1A52824 /* RNCryptorEngine.h in Headers */,
+				AB54B6E856D1D576D1E75F3A542A04A8 /* RNDecryptor.h in Headers */,
+				4FCE54BE941DFD82C511DED9B4B5526C /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B47F65736D18E4B44C0108DFE68A724 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721851F938E45637A70D64DD56B6ABE2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				32CC2B5EC116F726C7A8AAA3F3AFBD7E /* Sources */,
+				6D0AED5C40E7AEB6B5997CDD93141BD8 /* Frameworks */,
+				C7CE144942B8973161B7AEA30068E162 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 8224DBC51F80FCA4A7709C85B75A58A9 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		86448175336B5DCD761E867B54F318BC /* RNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BABD87F12551E4FBB46A15924ADC20 /* Build configuration list for PBXNativeTarget "RNCryptor" */;
+			buildPhases = (
+				177337F7549056167EA95CF54300619F /* Sources */,
+				59F165A8D52639376BEC190EFA8EBB46 /* Frameworks */,
+				CF2C9C105869593C4718AFD488C8DB8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCryptor;
+			productName = RNCryptor;
+			productReference = 7CB7B4624FD6FC7B376F8BB2157C639B /* libRNCryptor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		887431A651BFEC3A6647B6334B8ACA7F /* AesGcm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527518C9B2E5D4ADFF7200618ABD77CB /* Build configuration list for PBXNativeTarget "AesGcm" */;
+			buildPhases = (
+				3747A618C7CB971FD34E1D20CBD5DBB0 /* Sources */,
+				46DE403DB7107ED1EFBB74D97C8505AC /* Frameworks */,
+				A0AF5E381F56003A15BD4E77F4635D50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AesGcm;
+			productName = AesGcm;
+			productReference = 5B0F6C392C16AD7F74956F94E4098032 /* libAesGcm.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F07DEA8BC59ABFDAF6EB46D8252A0C97 /* Pods-lanya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA10C38997340E56FCBBA96215894743 /* Build configuration list for PBXNativeTarget "Pods-lanya" */;
+			buildPhases = (
+				FAE328F758175381FC0C9C49682C3389 /* Sources */,
+				DB5223AEB2B519021ABBE42C3D6BBC18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F25D84266142715BAFC1BD1A31EB880 /* PBXTargetDependency */,
+				998657AE1D5AFA0F497AB6D92E80C227 /* PBXTargetDependency */,
+				67F75868C6812754C84963A0DFC664D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-lanya";
+			productName = "Pods-lanya";
+			productReference = 00D8D4D75808065F54684BF75C166FD5 /* libPods-lanya.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3FBBDCAC4EA69D3AC92030008B4A0EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887431A651BFEC3A6647B6334B8ACA7F /* AesGcm */,
+				F07DEA8BC59ABFDAF6EB46D8252A0C97 /* Pods-lanya */,
+				86448175336B5DCD761E867B54F318BC /* RNCryptor */,
+				5B47F65736D18E4B44C0108DFE68A724 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177337F7549056167EA95CF54300619F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280912E175ECBF989E664353A1783F0C /* RNCryptor-dummy.m in Sources */,
+				AEA94F2CE3EBC087422619A07EFB54E0 /* RNCryptor.m in Sources */,
+				4D5B7B8FA35526B14BE7B8CD128B3710 /* RNCryptorEngine.m in Sources */,
+				A0F3156ECC652A0B46945581104CBBC4 /* RNDecryptor.m in Sources */,
+				5E79F9BB9120C1222477C38E06360DEF /* RNEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CC2B5EC116F726C7A8AAA3F3AFBD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA530707D8518C1990557E7B8AD519 /* SVIndefiniteAnimatedView.m in Sources */,
+				FFE02FD611E7FBB74175810F43B8ED92 /* SVProgressAnimatedView.m in Sources */,
+				3FDA789175E9F063242774CFC1052A9E /* SVProgressHUD-dummy.m in Sources */,
+				342926D6E435ABF8E2CB1C39740C2CDC /* SVProgressHUD.m in Sources */,
+				31CEBDA48E6C9CB6AC77828479FE68A8 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3747A618C7CB971FD34E1D20CBD5DBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91CD7BBA567CDF2B3D3DB66C4195B6B /* AesGcm-dummy.m in Sources */,
+				FDA35BC8A57DB0A2C0BF284CAFB30D5E /* IAGAesComponents.m in Sources */,
+				1BDB5DB1A8A3E22BBDB8D62E8EFF8645 /* IAGAesGcm.m in Sources */,
+				069859C83FD3A2515979B8CEEA0F8BCA /* IAGBitwiseComponents.m in Sources */,
+				8568E4F415CC3EEBE0622359723B1454 /* IAGCipheredData.m in Sources */,
+				0E04B47A619A27AB34F3D4DE12407A6A /* IAGError.m in Sources */,
+				E08F4709A91690C8A4E0912B65D53B15 /* IAGGcmEndianness.m in Sources */,
+				3ABB203D76CA339DFD057B46EEE3C92E /* IAGGcmMathComponents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE328F758175381FC0C9C49682C3389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F71EAE8B52589160ACC8CC419AA852 /* Pods-lanya-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F25D84266142715BAFC1BD1A31EB880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AesGcm;
+			target = 887431A651BFEC3A6647B6334B8ACA7F /* AesGcm */;
+			targetProxy = 143F2E0470D483A4C6A8CCD5998F756C /* PBXContainerItemProxy */;
+		};
+		67F75868C6812754C84963A0DFC664D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 5B47F65736D18E4B44C0108DFE68A724 /* SVProgressHUD */;
+			targetProxy = 727DC99C2802020F592408F5F09A8C94 /* PBXContainerItemProxy */;
+		};
+		998657AE1D5AFA0F497AB6D92E80C227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNCryptor;
+			target = 86448175336B5DCD761E867B54F318BC /* RNCryptor */;
+			targetProxy = A2CD7AE2D3252644691CFE6F52E7FE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53517A093D0D25526A1B199D811E2A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76DF7D4E2438B93625EFF04C350B651 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DDDDC01D981DAB80AE48C3C50E32BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFF349D8BA2073178145E0A2EDF0F78 /* Pods-lanya.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F91DBE839D43FB1F0AF2191AF21ED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676850F1F776C35AC6C6C3D7DCF594F4 /* AesGcm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AesGcm/AesGcm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8445AE9D992B8030B3AE1FCDF16C20A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E70A4A99642DBB3ABD1806E58D58175 /* Pods-lanya.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92B5306FF8F831DB6E0620F018429600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76DF7D4E2438B93625EFF04C350B651 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9854D811AA34D452E5C797DB53F500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676850F1F776C35AC6C6C3D7DCF594F4 /* AesGcm.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AesGcm/AesGcm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CCC008887308157E6161CD401117CA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079F0DF7CCDFD3BE28CAA27ECD22C5DA /* RNCryptor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA53DC9E4968F1A0EB93FF7F065E978C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079F0DF7CCDFD3BE28CAA27ECD22C5DA /* RNCryptor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527518C9B2E5D4ADFF7200618ABD77CB /* Build configuration list for PBXNativeTarget "AesGcm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F91DBE839D43FB1F0AF2191AF21ED27 /* Debug */,
+				CA9854D811AA34D452E5C797DB53F500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721851F938E45637A70D64DD56B6ABE2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B5306FF8F831DB6E0620F018429600 /* Debug */,
+				53517A093D0D25526A1B199D811E2A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88BABD87F12551E4FBB46A15924ADC20 /* Build configuration list for PBXNativeTarget "RNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA53DC9E4968F1A0EB93FF7F065E978C /* Debug */,
+				CCC008887308157E6161CD401117CA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA10C38997340E56FCBBA96215894743 /* Build configuration list for PBXNativeTarget "Pods-lanya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8445AE9D992B8030B3AE1FCDF16C20A6 /* Debug */,
+				5DDDDC01D981DAB80AE48C3C50E32BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

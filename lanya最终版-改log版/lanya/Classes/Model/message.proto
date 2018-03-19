@@ -1,0 +1,27 @@
+syntax = 'proto3';
+
+// one message
+message Frame {
+int64 fid = 1; // ignore
+oneof oneOf {
+Identity identity = 2;
+DataTransfer dataTransfer = 3;
+TransportUpgrade transportUpgrade = 4; // ignore
+}
+}
+
+message Identity {
+int64 uid = 1;
+string alias = 2;
+}
+
+message DataTransfer {
+bytes data = 1; // encypted data or protocol
+int64 from = 2; // ignore
+int64 to = 3; // ignore
+}
+
+// ignore
+message TransportUpgrade {
+int32 code = 1;
+}

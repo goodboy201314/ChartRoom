@@ -1,0 +1,18 @@
+PODS:
+  - AesGcm (0.1.5)
+  - RNCryptor (3.0.1)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AesGcm
+  - RNCryptor (~> 3.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AesGcm: 1e1921afa146ea02c6125e4655d7017ab7de4bbd
+  RNCryptor: 761fc3ed94d1a0e409ba5b8e5dbef6a8f69352a7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: b60b6a83e25b2fd01cc97bfe00051b657821fcc8
+
+COCOAPODS: 1.1.1
